@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .general-grid{
+    @apply grid grid-cols-8  gap-3 sm:gap-4 auto-rows-layout  w-full
+  }
+  .grid-225{
+    @apply grid gap-4 grid-cols-[repeat(auto-fit,minmax(225px,1fr))] w-full 
+  }
+  .grid-200{
+    @apply grid gap-4 grid-cols-[repeat(auto-fit,minmax(200px,1fr))] w-full 
+  }
+  .grid-175{
+      @apply grid gap-4 grid-cols-[repeat(auto-fit,minmax(175px,1fr))] w-full 
+    }
+  .grid-150{
+      @apply grid gap-4 grid-cols-[repeat(auto-fit,minmax(150px,1fr))] w-full 
+    }
+  .grid-125{
+    @apply grid gap-4 grid-cols-[repeat(auto-fit,minmax(125px,1fr))] w-full 
+  }
+  .grid-100{
+    @apply grid gap-4 grid-cols-[repeat(auto-fit,minmax(100px,1fr))] w-full 
+  }
+  .grid-75{
+    @apply grid gap-4 grid-cols-[repeat(auto-fit,minmax(75px,1fr))] w-full 
+  }
+  .my-list-style{
+    @apply list-disc list-inside ml-4 mb-6
+  }
+  .title{
+    @apply text-3xl sm:text-4xl  font-black text-center text-[#4C4C4C]
+  }
+  .sub-title{
+    @apply text-xl font-semibold  text-[#4C4C4C]
+  }
+}
+body{
+  background: #EAEDED;
+  color: #727272;
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+  background: #ccc;
+  border-radius: 10px;
+}
