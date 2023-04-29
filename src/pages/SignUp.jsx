@@ -4,11 +4,11 @@ import store3d from "../assets/images/store3d.png"
 const SignUp = () => {
     return (
         <section className="flex h-full bg-white">
-            <div className="flex flex-col w-[40%] h-full bg-[#FFDEB1] items-center gap-14 justify-center rounded-r-xl">
+            <div className="hidden sm:flex flex-col w-[40%] h-full bg-[#FFDEB1] items-center gap-14 justify-center rounded-r-xl">
                 <span className="title text-[#DC7F00] ">Not Amazon</span>
                 <img src={store3d} alt="" />
             </div>
-            <div className="w-[60%] flex flex-col">
+            <div className="w-full sm:w-[60%] flex flex-col p-4">
                 <header className="flex justify-end items-center h-[10vh] p-8 gap-4">
                     <span>Already a member?</span>
                     <Link to="/sign-in"className="text-sky-500 rounded-lg px-4 py-2 hover:bg-sky-100 transition-all">Sign in now</Link>
