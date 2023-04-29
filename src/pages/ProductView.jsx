@@ -40,7 +40,7 @@ const ProductView = () => {
                 </div>
             </article>
                 <h2 className="sub-title">Description</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ipsum saepe explicabo illum quia odio rem ex aliquam asperiores, iusto nostrum culpa ipsam maiores, aperiam incidunt repudiandae fuga, laborum</p>
+                <p>the images in the slider are just filler. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ipsum saepe explicabo illum quia odio rem ex aliquam asperiores, iusto nostrum culpa ipsam maiores, aperiam incidunt repudiandae fuga, laborum</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ipsum saepe explicabo illum quia odio rem ex aliquam asperiores, iusto nostrum culpa ipsam maiores, aperiam incidunt repudiandae fuga, laborum</p>
                 <h2 className="sub-title">Product features:</h2>
                 <ul className="my-list-style">

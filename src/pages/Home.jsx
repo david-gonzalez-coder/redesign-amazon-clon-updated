@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <section className="w-full sm:w-[85%] m-auto flex flex-col gap-8">
             <Slider images={heroImagesData}/>
-            <div className="grid-150 grid-200">
+            <div className="grid-150 sm:grid-200">
                 {productsData.map(({title, price, image,id}, idx) => <ProductCard to={`product-view/${id}`} key={idx} title={title} price={price} img={image}/>)}
             </div>
         </section>
